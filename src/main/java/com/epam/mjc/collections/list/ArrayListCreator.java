@@ -11,6 +11,7 @@ public class ArrayListCreator {
         for (int i = 0; i < sourceList.size(); i++) {
             if ((i + 1) % 3 == 0) {
                 result.add(sourceList.get(i));
+                result.add(sourceList.get(i));
             }
         }
         return result;
